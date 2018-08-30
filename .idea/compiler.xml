@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitMQ_Reciver" />
+        <module name="rabbitMQ_Sender" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RabbitMQ" target="1.5" />
+      <module name="rabbitMQ" target="1.5" />
+      <module name="RabbitMQ_Client" target="1.5" />
+      <module name="rabbitMQ_Reciver" target="1.6" />
+      <module name="rabbitMQ_Sender" target="1.5" />
+      <module name="RabbitMQ_Sender" target="1.5" />
+      <module name="RabbitMQ_Service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
