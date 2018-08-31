@@ -6,9 +6,7 @@
 
     <artifactId>rabbitMQ_Reciver</artifactId>
     <packaging>pom</packaging>
-    <modules>
-        <module>quartz</module>
-    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
