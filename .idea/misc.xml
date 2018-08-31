@@ -5,6 +5,23 @@
       <list>
         <option value="$PROJECT_DIR$/RabbitMQ/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_Reciver/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_Sender/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/mqttTest/pom.xml" />
+        <option value="$PROJECT_DIR$/interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/gatway/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/eureka_service/pom.xml" />
+        <option value="$PROJECT_DIR$/quartz_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Sender/pom.xml" />
+        <option value="$PROJECT_DIR$/springTest/pom.xml" />
+        <option value="$PROJECT_DIR$/springTest/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootTest/pom.xml" />
+        <option value="$PROJECT_DIR$/springTest/springIOC/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -13,7 +30,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
