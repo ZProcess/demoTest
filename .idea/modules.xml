@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demoTest.iml" filepath="$PROJECT_DIR$/demoTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eurekaDemo/eureka_client/eureka_client.iml" filepath="$PROJECT_DIR$/eurekaDemo/eureka_client/eureka_client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gatway/gatway.iml" filepath="$PROJECT_DIR$/gatway/gatway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/interceptor/interceptor.iml" filepath="$PROJECT_DIR$/interceptor/interceptor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mqttTest/mqttTest.iml" filepath="$PROJECT_DIR$/mqttTest/mqttTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/quartz/quartz.iml" filepath="$PROJECT_DIR$/quartz/quartz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/quartz/quartz_java/quartz_java.iml" filepath="$PROJECT_DIR$/quartz/quartz_java/quartz_java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Reciver/rabbitMQ_Reciver.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Reciver/rabbitMQ_Reciver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Sender/rabbitMQ_Sender.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Sender/rabbitMQ_Sender.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ_Spring/rabbitMQ_Spring.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ_Spring/rabbitMQ_Spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_SpringBoot.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_SpringBoot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/rabbitMQ_java.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/rabbitMQ_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/demoTest.iml" filepath="$PROJECT_DIR$/.idea/demoTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/springTest/springAOP/springAOP.iml" filepath="$PROJECT_DIR$/springTest/springAOP/springAOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/springTest/springIOC/springIOC.iml" filepath="$PROJECT_DIR$/springTest/springIOC/springIOC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springTest/springMVC/springMVC.iml" filepath="$PROJECT_DIR$/springTest/springMVC/springMVC.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springTest/springTest.iml" filepath="$PROJECT_DIR$/springTest/springTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springbootTest/springbootTest.iml" filepath="$PROJECT_DIR$/springbootTest/springbootTest.iml" />
     </modules>
   </component>
 </project>
