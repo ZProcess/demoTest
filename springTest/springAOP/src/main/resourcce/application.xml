@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <bean id="helloService"
           class="com.HelloServiceImpl"/>
     <!-- 配置非核心业务对象(日志处理对象)：切面 -->
@@ -24,6 +25,14 @@
                         pointcut-ref="logPointCut"/>
         </aop:aspect>
     </aop:config>
+
+
+    <!-- 配置对类组件的扫描 -->
+    <context:component-scan
+            base-package="anotation"/>
+    <!-- 启用AOP注解(自动为目标对象创建代理对象) -->
+    <aop:aspectj-autoproxy/>
+
 
 
 </beans>

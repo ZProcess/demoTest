@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springAOP" />
         <module name="springIOC" />
+        <module name="springMVC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springAOP" target="1.5" />
       <module name="springIOC" target="1.5" />
+      <module name="springMVC" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
