@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/springTest/springMVC" />
-  </component>
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
-  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/springTest/springIOC/pom.xml" />
-        <option value="$PROJECT_DIR$/springTest/springAOP/pom.xml" />
-        <option value="$PROJECT_DIR$/springTest/springMVC/pom.xml" />
-        <option value="$PROJECT_DIR$/proxy/pom.xml" />
-        <option value="$PROJECT_DIR$/gatway/pom.xml" />
-        <option value="$PROJECT_DIR$/quartz/quartz_java/pom.xml" />
-        <option value="$PROJECT_DIR$/mqttTest/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_Spring/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Sender/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Reciver/pom.xml" />
-        <option value="$PROJECT_DIR$/eurekaDemo/eureka_client/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaDemo/eureka_server/pom.xml" />
-        <option value="$PROJECT_DIR$/interceptor/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootTest/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/freignConsumer/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
