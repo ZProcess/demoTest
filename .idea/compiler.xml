@@ -6,13 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka_client" />
+        <module name="eureka_server" />
+        <module name="gatway" />
+        <module name="interceptor" />
+        <module name="proxy" />
+        <module name="rabbitMQ_java" />
+        <module name="rabbitMQ_Reciver" />
+        <module name="rabbitMQ_Spring" />
         <module name="springAOP" />
+        <module name="springbootTest" />
         <module name="springIOC" />
         <module name="springMVC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka_client" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="gatway" target="1.8" />
+      <module name="interceptor" target="1.6" />
+      <module name="mqttTest" target="1.5" />
+      <module name="proxy" target="1.5" />
+      <module name="quartz_java" target="1.5" />
+      <module name="rabbitMQ_java" target="1.5" />
+      <module name="rabbitMQ_Reciver" target="1.6" />
+      <module name="rabbitMQ_Sender" target="1.6" />
+      <module name="rabbitMQ_Spring" target="1.5" />
       <module name="springAOP" target="1.5" />
+      <module name="springbootTest" target="1.5" />
       <module name="springIOC" target="1.5" />
       <module name="springMVC" target="1.5" />
     </bytecodeTargetLevel>

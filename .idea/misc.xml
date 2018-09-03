@@ -12,6 +12,18 @@
         <option value="$PROJECT_DIR$/springTest/springIOC/pom.xml" />
         <option value="$PROJECT_DIR$/springTest/springAOP/pom.xml" />
         <option value="$PROJECT_DIR$/springTest/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/gatway/pom.xml" />
+        <option value="$PROJECT_DIR$/quartz/quartz_java/pom.xml" />
+        <option value="$PROJECT_DIR$/mqttTest/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Sender/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_SpringBoot/rabbitMQ_Reciver/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/eureka_client/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaDemo/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/springbootTest/pom.xml" />
       </list>
     </option>
   </component>
