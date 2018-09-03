@@ -10,6 +10,7 @@
         <module name="eureka_client" />
         <module name="eureka_server" />
         <module name="freignConsumer" />
+        <module name="Thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="eureka_server" target="1.8" />
       <module name="eureka_server (1)" target="1.8" />
       <module name="freignConsumer" target="1.8" />
+      <module name="Thread" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
