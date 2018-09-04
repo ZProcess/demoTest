@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gatway" />
         <module name="springAOP" />
         <module name="springIOC" />
         <module name="springMVC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gatway" target="1.8" />
       <module name="springAOP" target="1.5" />
       <module name="springIOC" target="1.5" />
       <module name="springMVC" target="1.5" />

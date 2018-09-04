@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/springTest/springIOC/pom.xml" />
         <option value="$PROJECT_DIR$/springTest/springAOP/pom.xml" />
         <option value="$PROJECT_DIR$/springTest/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/gatway/pom.xml" />
       </list>
     </option>
   </component>
