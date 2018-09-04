@@ -18,7 +18,7 @@ public class UdpSend {
 
         //3:把要发送的数据打成数据报包
         //数据报包指明了发送的数据，接收数据的主机的Ip地址对象，接收数据的主机使用哪个端口接收
-        DatagramPacket dp = new DatagramPacket(data,data.length, InetAddress.getByName("127.0.0.1"), 22222);
+        DatagramPacket dp = new DatagramPacket(data,data.length, InetAddress.getByName("172.16.55.255"), 22222);
 
         //4:使用 Socket的发送功能发送数据
         //发送数据就是向网络输出数据，所以内部使用了输出流
