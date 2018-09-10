@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaDemo/consumer/consumer.iml" filepath="$PROJECT_DIR$/eurekaDemo/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/demoTest.iml" filepath="$PROJECT_DIR$/.idea/demoTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shiroTest/shiroTest.iml" filepath="$PROJECT_DIR$/shiroTest/shiroTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaDemo/eureka_client/eureka_client.iml" filepath="$PROJECT_DIR$/eurekaDemo/eureka_client/eureka_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaDemo/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eurekaDemo/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mqttTest/mqttTest.iml" filepath="$PROJECT_DIR$/mqttTest/mqttTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/rabbitMQ_java.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/rabbitMQ_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tcpTest/tcpTest.iml" filepath="$PROJECT_DIR$/tcpTest/tcpTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tcpTest/tcpTest.iml" filepath="$PROJECT_DIR$/tcpTest/tcpTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/udpTest/udpTest.iml" filepath="$PROJECT_DIR$/udpTest/udpTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/udpTest/udpTest.iml" filepath="$PROJECT_DIR$/udpTest/udpTest.iml" />
     </modules>
   </component>
 </project>

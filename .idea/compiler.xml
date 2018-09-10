@@ -6,11 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shiroTest" />
+        <module name="consumer" />
+        <module name="eureka_client" />
+        <module name="eureka_server" />
+        <module name="freignConsumer" />
+        <module name="mybatis" />
+        <module name="rabbitMQ_java" />
+        <module name="tcpTest" />
+        <module name="test" />
+        <module name="Thread" />
+        <module name="udpTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="shiroTest" target="1.5" />
+      <module name="consumer" target="1.8" />
+      <module name="eureka_client" target="1.8" />
+      <module name="eureka_server" target="1.8" />
+      <module name="mqttTest" target="1.5" />
+      <module name="mybatis" target="1.5" />
+      <module name="rabbitMQ_java" target="1.5" />
+      <module name="tcpTest" target="1.5" />
+      <module name="test" target="1.5" />
+      <module name="Thread" target="1.5" />
+      <module name="udpTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,7 +11,7 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 import java.util.concurrent.ScheduledExecutorService;
 
 public class MqttSub {
-    public static final String HOST = "tcp://192.168.30.129:1883";
+    public static final String HOST = "tcp://47.93.19.134:1883";
     public static final String TOPIC = "root/topic/123";
     private static final String clientid = "client11";
     private MqttClient client;
