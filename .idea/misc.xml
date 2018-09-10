@@ -9,8 +9,14 @@
         <option value="$PROJECT_DIR$/eurekaDemo/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/eurekaDemo/freignConsumer/pom.xml" />
         <option value="$PROJECT_DIR$/Thread/pom.xml" />
+        <option value="$PROJECT_DIR$/udpTest/pom.xml" />
+        <option value="$PROJECT_DIR$/tcpTest/pom.xml" />
+        <option value="$PROJECT_DIR$/test/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/pom.xml" />
+        <option value="$PROJECT_DIR$/mqttTest/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

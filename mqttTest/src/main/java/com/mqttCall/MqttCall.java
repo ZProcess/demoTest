@@ -17,6 +17,6 @@ public class MqttCall implements MqttCallback {
     }
 
     public void deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken) {
-        System.out.println("deliveryComplete---------" + iMqttDeliveryToken.isComplete());
+        System.out.println("deliveryComplete222---------" + iMqttDeliveryToken.isComplete());
     }
 }
