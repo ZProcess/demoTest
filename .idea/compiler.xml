@@ -6,21 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consumer" />
-        <module name="eureka_client" />
-        <module name="eureka_server" />
-        <module name="freignConsumer" />
-        <module name="Thread" />
+        <module name="shiroTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="consumer" target="1.8" />
-      <module name="eureka_client" target="1.8" />
-      <module name="eureka_client (1)" target="1.8" />
-      <module name="eureka_server" target="1.8" />
-      <module name="eureka_server (1)" target="1.8" />
-      <module name="freignConsumer" target="1.8" />
-      <module name="Thread" target="1.5" />
+      <module name="shiroTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
