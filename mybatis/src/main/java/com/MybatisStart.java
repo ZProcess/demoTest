@@ -11,6 +11,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class MybatisStart {
+
     public static void main(String[] args) throws IOException {
         String resource = "mybatis-config.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
@@ -39,6 +40,17 @@ public class MybatisStart {
         list.forEach((l) -> {
             System.out.println(l.toString());
         });*/
+
+       ItemMapper itemMapper=session.getMapper(ItemMapper.class);
+       List<User> l=itemMapper.findAll();
+       l.forEach(li->{
+           System.out.println(l.toString());
+       });
+
+
+
+
+
 
 
 

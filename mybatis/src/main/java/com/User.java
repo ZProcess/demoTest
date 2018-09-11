@@ -1,5 +1,8 @@
 package com;
 
+import javax.persistence.Table;
+
+@Table(name = "user")
 public class User {
     private String name;
     private int age;
