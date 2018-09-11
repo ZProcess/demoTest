@@ -7,7 +7,6 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Iterator;
 import java.util.List;
 
 public class MybatisStart {
@@ -17,7 +16,7 @@ public class MybatisStart {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession session = sqlSessionFactory.openSession();
-/*        //基于.xml文件的查询
+  /*      //基于.xml文件的查询
         User user = session.selectOne("com.dao.findUser", 12);
         System.out.println(user.toString());
         //基于接口的查询
@@ -42,7 +41,10 @@ public class MybatisStart {
         });*/
 
        ItemMapper itemMapper=session.getMapper(ItemMapper.class);
+
+        System.out.println("hhhhhhhhhhhhhhhhhhhh");
        List<User> l=itemMapper.findAll();
+        System.out.println(l);
        l.forEach(li->{
            System.out.println(l.toString());
        });

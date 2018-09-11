@@ -23,7 +23,7 @@
       <module name="eureka_client" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="mqttTest" target="1.5" />
-      <module name="mybatis" target="1.5" />
+      <module name="mybatis" target="8" />
       <module name="rabbitMQ_java" target="1.5" />
       <module name="tcpTest" target="1.5" />
       <module name="test" target="1.5" />
