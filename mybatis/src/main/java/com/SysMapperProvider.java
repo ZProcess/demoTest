@@ -26,6 +26,10 @@ public class SysMapperProvider extends MapperProvider {
 
 	public SqlNode findAll(MappedStatement ms){
 		try {
+			Class<?> entityClass = getSelectReturnType(ms);
+			//修改返回值类型为实体类型
+			setResultType(ms, entityClass);
+
 			//1.获取客户端调用的方法 com.jt.manage.mapper.ItemMapper.findTextCount()
 			String methodPath = ms.getId();
 
@@ -76,7 +80,7 @@ public class SysMapperProvider extends MapperProvider {
 			}
 
 		} catch (ClassNotFoundException e) {
-
+			System.out.println("*************!!!!!!!!!!");
 			e.printStackTrace();
 		}
 		return null;
@@ -99,23 +103,5 @@ public class SysMapperProvider extends MapperProvider {
      * @return
      */
 
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
 }

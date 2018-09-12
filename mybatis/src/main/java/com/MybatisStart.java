@@ -40,14 +40,15 @@ public class MybatisStart {
             System.out.println(l.toString());
         });*/
 
+
        ItemMapper itemMapper=session.getMapper(ItemMapper.class);
 
-        System.out.println("hhhhhhhhhhhhhhhhhhhh");
-       List<User> l=itemMapper.findAll();
-        System.out.println(l);
-       l.forEach(li->{
+       List<User> list=itemMapper.findAll();
+       list.forEach(l->{
            System.out.println(l.toString());
        });
+
+
 
 
 
