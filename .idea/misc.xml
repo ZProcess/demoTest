@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/pom.xml" />
         <option value="$PROJECT_DIR$/mqttTest/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/uploadFile/pom.xml" />
       </list>
     </option>
   </component>

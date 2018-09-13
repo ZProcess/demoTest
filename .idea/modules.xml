@@ -13,6 +13,9 @@
       <module fileurl="file://$PROJECT_DIR$/tcpTest/tcpTest.iml" filepath="$PROJECT_DIR$/tcpTest/tcpTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/udpTest/udpTest.iml" filepath="$PROJECT_DIR$/udpTest/udpTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadFile/uploadFile.iml" filepath="$PROJECT_DIR$/uploadFile/uploadFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadFile/uploadFileBySpirng/uploadFileBySpirng.iml" filepath="$PROJECT_DIR$/uploadFile/uploadFileBySpirng/uploadFileBySpirng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadFile/uploadFileBySpringboot/uploadFileBySpringboot.iml" filepath="$PROJECT_DIR$/uploadFile/uploadFileBySpringboot/uploadFileBySpringboot.iml" />
     </modules>
   </component>
 </project>

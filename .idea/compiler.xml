@@ -16,6 +16,8 @@
         <module name="test" />
         <module name="Thread" />
         <module name="udpTest" />
+        <module name="uploadFileBySpirng" />
+        <module name="uploadFileBySpringboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,12 +25,16 @@
       <module name="eureka_client" target="1.8" />
       <module name="eureka_server" target="1.8" />
       <module name="mqttTest" target="1.5" />
-      <module name="mybatis" target="8" />
+      <module name="mybatis" target="1.5" />
       <module name="rabbitMQ_java" target="1.5" />
       <module name="tcpTest" target="1.5" />
       <module name="test" target="1.5" />
       <module name="Thread" target="1.5" />
       <module name="udpTest" target="1.5" />
+      <module name="uploadFile" target="1.5" />
+      <module name="uploadFileBySpirng" target="1.5" />
+      <module name="uploadFileBySpringboot" target="8" />
+      <module name="uploadFileBySpringBoot" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
