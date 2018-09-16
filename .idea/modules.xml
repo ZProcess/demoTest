@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/rabbitMQ_java.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ_java/rabbitMQ_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/tcpTest/tcpTest.iml" filepath="$PROJECT_DIR$/tcpTest/tcpTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tftp/tftp.iml" filepath="$PROJECT_DIR$/tftp/tftp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tftp/tftp_client/tftp_client.iml" filepath="$PROJECT_DIR$/tftp/tftp_client/tftp_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tftp/tftp_server/tftp_server.iml" filepath="$PROJECT_DIR$/tftp/tftp_server/tftp_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/udpTest/udpTest.iml" filepath="$PROJECT_DIR$/udpTest/udpTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/uploadFile/uploadFile.iml" filepath="$PROJECT_DIR$/uploadFile/uploadFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/uploadFile/uploadFileBySpirng/uploadFileBySpirng.iml" filepath="$PROJECT_DIR$/uploadFile/uploadFileBySpirng/uploadFileBySpirng.iml" />
