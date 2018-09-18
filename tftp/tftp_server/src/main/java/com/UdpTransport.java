@@ -38,22 +38,14 @@ public class UdpTransport {
     public void sendAck(){
 
     }
-    public void assemblePackage(byte[]...temp) throws UnsupportedEncodingException {
+    public byte[] assemblePackage(byte[]...temp) throws UnsupportedEncodingException {
         int numb=temp.length;
         int len=0;
         for(int i=0;i<numb;i++){
-            for(int j=0;j<temp[i].length;j++){
-                buffer[len]=temp[i][j];
-                len++;
-            }
+            System.arraycopy(temp[i],0,buffer,len,temp[i].length);
+            len+=temp[i].length;
         }
-        byte[] t= Arrays.copyOf(buffer,len);
-        System.out.println(t.length);
-        byte[] t2=new byte[512];
-        System.arraycopy(t,2,t2,0,len-2);
-        System.out.println( new String(t2,"UTF-8"));
-
+        byte[] result=Arrays.copyOf(buffer,len-1);
+        return result;
     }
-
-
 }
