@@ -14,8 +14,12 @@
         <module name="rabbitMQ_java" />
         <module name="tcpTest" />
         <module name="test" />
+        <module name="tftp_client" />
+        <module name="tftp_server" />
         <module name="Thread" />
         <module name="udpTest" />
+        <module name="uploadFileBySpirng" />
+        <module name="uploadFileBySpringboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,8 +31,14 @@
       <module name="rabbitMQ_java" target="1.5" />
       <module name="tcpTest" target="1.5" />
       <module name="test" target="1.5" />
+      <module name="tftp" target="1.8" />
+      <module name="tftp_client" target="8" />
+      <module name="tftp_server" target="8" />
       <module name="Thread" target="1.5" />
       <module name="udpTest" target="1.5" />
+      <module name="uploadFile" target="1.5" />
+      <module name="uploadFileBySpirng" target="1.5" />
+      <module name="uploadFileBySpringboot" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
