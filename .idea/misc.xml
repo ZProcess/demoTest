@@ -17,6 +17,10 @@
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/uploadFile/pom.xml" />
         <option value="$PROJECT_DIR$/tftp/pom.xml" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/config/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/configTest/pom.xml" />
+        <option value="$PROJECT_DIR$/busTest/pom.xml" />
       </list>
     </option>
   </component>

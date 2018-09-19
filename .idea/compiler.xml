@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="busTest" />
+        <module name="configTest" />
         <module name="consumer" />
         <module name="eureka_client" />
         <module name="eureka_server" />
@@ -23,6 +25,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="busServer" target="1.6" />
+      <module name="busTest" target="1.8" />
+      <module name="config" target="1.6" />
+      <module name="configserver" target="1.6" />
+      <module name="configTest" target="1.8" />
       <module name="consumer" target="1.8" />
       <module name="eureka_client" target="1.8" />
       <module name="eureka_server" target="1.8" />
@@ -38,7 +45,7 @@
       <module name="udpTest" target="1.5" />
       <module name="uploadFile" target="1.5" />
       <module name="uploadFileBySpirng" target="1.5" />
-      <module name="uploadFileBySpringboot" target="1.5" />
+      <module name="uploadFileBySpringboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

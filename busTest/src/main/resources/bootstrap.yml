@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: bus-test
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://127.0.0.1:8082
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+    bus:
+      trace:
+        enabled: true
